@@ -11,7 +11,6 @@ import { connect } from "react-redux";
 import { setCurrentUser } from "./redux/user/user.actions";
 import { createStructuredSelector } from "reselect";
 import { selectCurrentUser } from "./redux/user/user.selector";
-
 import CheckoutPage from "./pages/checkout/checkout.component";
 
 class App extends Component {
